@@ -486,6 +486,68 @@ h6 {
   cursor: pointer;
 }
 
+.footer-newsletter {
+  margin-left: 78px;
+  padding-top: 12px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.footer-newsletter-title {
+  font-family: 'Roboto';
+  color: var(--btn-active-txt);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+
+.email-box {
+  width: 358px;
+  height: 50px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  font-family: 'Roboto';
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 16px;
+}
+
+.newsletter-button {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: var(--element-focus);
+
+  height: 50px;
+  width: 200px;
+  border: none;
+  margin-left: 12px;
+}
+
+.newsletter-button-label {
+  padding-left: 42px;
+  margin-right: 24px;
+}
+
+.footer-newsletter-icon {
+  fill: white;
+}
+
 /* ikonki */
 .icon {
   border: var(--icon-inactive) solid 1px;
