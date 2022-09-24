@@ -35,6 +35,51 @@
             ></use>
           </svg>
         </button>
+
+        <form class="modal-form">
+          <span class="modal-form-title">Zostaw swoje dane w formularzu poniżej</span>
+          <label class="modal-form-label"
+            >Imię
+            <input type="text" name="username" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-user"></use>
+            </svg>
+          </label>
+
+          <label class="modal-form-label">
+            Telefon
+            <input type="tel" name="phone-number" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-user-phone"></use>
+            </svg>
+          </label>
+
+          <label class="modal-form-label"
+            >Email
+            <input type="email" name="email" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-user-email"></use>
+            </svg>
+          </label>
+
+          <label class="modal-form-label"
+            >Komentarz
+            <textarea name="order-description" placeholder="Wprowadź teskt"></textarea>
+          </label>
+
+          <label class="form-rules"
+            ><input
+              type="checkbox"
+              class="check-input"
+              name="rules-acceptation"
+              value="acceptation"
+            /><span class="test"
+              >Oświadczam iż akceptuję <a href="">Regularmin</a> i
+              <a href="">Politykę prywatności</a></span
+            >
+          </label>
+          <button type="sumbit" class="submit-button">Wyślij</button>
+        </form>
       </div>
     </div>
     <!-- logo i pasek nawigacji -->
