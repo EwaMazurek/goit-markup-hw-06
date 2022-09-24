@@ -67,16 +67,14 @@
             <textarea name="order-description" placeholder="Wprowadź teskt"></textarea>
           </label>
 
-          <label class="form-rules"
-            ><input
-              type="checkbox"
-              class="check-input"
-              name="rules-acceptation"
-              value="acceptation"
-            /><span class="test"
-              >Oświadczam iż akceptuję <a href="">Regularmin</a> i
-              <a href="">Politykę prywatności</a></span
-            >
+          <label for="check-input" class="form-rules">
+            <input id="check-input" type="checkbox" name="rules-acceptation" value="acceptation" />
+            <svg class="form-rules-check-icon">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+
+            Oświadczam iż akceptuję <a href="">Regularmin</a> i
+            <a href="">Politykę prywatności.</a>
           </label>
           <button type="sumbit" class="submit-button">Wyślij</button>
         </form>
